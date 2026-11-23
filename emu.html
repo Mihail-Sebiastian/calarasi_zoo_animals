@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 30px;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      color: #222;
+    }
+
+    .columns {
+      display: flex;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .column {
+      flex: 1;
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      min-height: 300px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 600px) {
+      .columns {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>My Website Title</h1>
+
+  <div class="columns">
+
+    <div class="column">
+      <h2>English 🇬🇧</h2>
+      <p>Fast Runners: Emus can run up to 50 km/h and take huge steps that are nearly 3 meters long!
+The Emu War: In 1932, the Australian military actually fought a war against a flock of emus—and the emus won!
+Super Dads: Male emus do all the babysitting, sitting on the eggs for two months straight without eating or drinking much.
+Built-in Goggles: They have three eyelids, including a special transparent one to keep dust out of their eyes.
+Surprise Swimmers: Even though they live in dry places, emus are actually fantastic swimmers!
+
+</p>
+    </div>
+
+    <div class="column">
+      <h2>Türkçe 🇹🇷</h2>
+      <p>Hızlı Koşucular: Emular saatte 50 km hıza ulaşabilir ve neredeyse 3 metre uzunluğunda dev adımlar atabilirler!
+Emu Savaşı: 1932 yılında Avustralya ordusu emulara karşı gerçekten bir savaş verdi ve bu savaşı emular kazandı!
+Süper Babalar: Kuluçkaya yatan, yumurtalara bakan ve aylarca neredeyse hiç yemek yemeden yavruları koruyan tamamen erkek emudur!
+Yerleşik Gözlükler: Gözlerindeki tozu engellemek için şeffaf olanlar dahil üç göz kapakları vardır.
+Sürpriz Yüzücüler: Kurak yerlerde yaşamalarına rağmen emular aslında harika yüzücülerdir!</p>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
