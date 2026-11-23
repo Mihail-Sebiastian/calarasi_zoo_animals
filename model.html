@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 30px;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      color: #222;
+    }
+
+    .columns {
+      display: flex;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .column {
+      flex: 1;
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      min-height: 300px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 600px) {
+      .columns {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>My Website Title</h1>
+
+  <div class="columns">
+
+    <div class="column">
+      <h2>English 🇬🇧</h2>
+      <p>Put your first text here.</p>
+    </div>
+
+    <div class="column">
+      <h2>Türkçe 🇹🇷</h2>
+      <p>Put your second text here.</p>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
